@@ -1,0 +1,18 @@
+head{
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.App{
+  display: grid;
+  grid-template-areas: 
+  "header"
+  "main";
+  grid-template-columns: 1fr;
+  grid-template-rows: 3rem 1fr;
+  height: 100%;
+}
+   
+.main{
+  grid-area: main;
+}
